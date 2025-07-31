@@ -1,3 +1,33 @@
-<h1>Welcome to Version 1</h1>
- <h1>Welcome to Version 2</h1>
-<h1>Welcome to Version 3</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Version 3</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 3em;
+      background: linear-gradient(45deg, #00f, #0ff, #0f0, #ff0, #f00);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: glow 2s infinite;
+    }
+    @keyframes glow {
+      0%, 100% { text-shadow: 0 0 10px #fff; }
+      50% { text-shadow: 0 0 20px #0ff; }
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME TO VERSION 3</h1>
+</body>
+</html>
